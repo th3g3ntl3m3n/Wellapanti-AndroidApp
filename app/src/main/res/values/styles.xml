@@ -1,0 +1,12 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/flatui_alizarin</item>
+        <item name="colorPrimaryDark">@color/flatui_alizarin</item>
+        <item name="colorAccent">@color/flatui_midnight_blue</item>
+        <item name="android:windowTranslucentStatus">true</item>
+    </style>
+
+</resources>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Wellapanti</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+    <string name="hello_there">Hello User</string>
+    <string name="username_email">Username/Email</string>
+    <string name="john_doe">John Doe</string>
+</resources>

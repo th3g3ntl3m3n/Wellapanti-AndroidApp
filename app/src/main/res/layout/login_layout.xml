@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Login"
+        android:textAlignment="center"
+        android:textColor="@color/flatui_midnight_blue"
+        android:textSize="40sp" />
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@color/flatui_clouds"
+        android:hint="Username"
+        android:inputType="text"
+        android:padding="10dp"
+        android:textColor="@color/flatui_midnight_blue"
+        android:textColorHint="@color/flatui_midnight_blue"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@color/flatui_clouds"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:padding="10dp"
+        android:textColor="@color/flatui_midnight_blue"
+        android:textColorHint="@color/flatui_midnight_blue"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@color/flatui_nephritis"
+        android:padding="10dp"
+        android:text="Login"
+        android:textColor="@color/flatui_clouds"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/forgotPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="10dp"
+        android:text="Forget Password? Click Here"
+        android:textAlignment="textEnd"
+        android:textColor="@color/flatui_midnight_blue"
+        android:textSize="16dp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="15dp"
+        android:clipToPadding="false"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="2dp"
+            android:layout_weight="1"
+            android:background="@color/flatui_alizarin"
+            android:text="Google+"
+            android:textColor="@color/flatui_clouds" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/flatui_peter_river"
+            android:text="Facebook"
+            android:textColor="@color/flatui_clouds" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/notRegistered"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="10dp"
+        android:padding="10dp"
+        android:text="Not have an account? Sign Up here"
+        android:textAlignment="center"
+        android:textColor="@color/flatui_midnight_blue"
+        android:textSize="16dp"
+        android:textStyle="bold" />
+
+</LinearLayout>
